@@ -11,9 +11,9 @@ router.get('/herois', async function (req, res) {
                 nome: convert.name,
                 imagem: convert.images.lg,
                 atributos: {
-                    Velocidade: convert.powerstats.speed,
-                    Força: convert.powerstats.strength,
-                    Inteligencia: convert.powerstats.intelligence
+                    velocidade: convert.powerstats.speed,
+                    forca: convert.powerstats.strength,
+                    inteligencia: convert.powerstats.intelligence
                 }
             }
         })
