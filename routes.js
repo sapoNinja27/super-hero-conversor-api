@@ -13,7 +13,9 @@ router.get('/herois', async function (req, res) {
                 atributos: {
                     velocidade: convert.powerstats.speed,
                     forca: convert.powerstats.strength,
-                    inteligencia: convert.powerstats.intelligence
+                    inteligencia: convert.powerstats.intelligence,
+                    durabilidade: convert.powerstats.durability,
+                    poder: convert.powerstats.power
                 }
             }
         })
